@@ -1,0 +1,7 @@
+
+"PHPのプラグイン
+NeoBundle 'Shougo/neocomplete.vim'
+NeoBundle 'violetyk/neocomplete-php.vim'
+NeoBundle 'mattn/emmet-vim'
+
+

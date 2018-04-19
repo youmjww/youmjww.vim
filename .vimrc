@@ -13,13 +13,13 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'rking/ag.vim'
 
 " react
-if filereadable(expand('~/youmjww.vim/.vim/.vimReactPlugin'))
-	source ~/youmjww.vim/.vim/.vimReactPlugin
+if filereadable(expand('~/youmjww.vim/configAndPlugin/.vimReactPlugin'))
+	source ~/youmjww.vim/configAndPlugin/.vimReactPlugin
 endif
 
 " php
-if filereadable(expand('~/youmjww.vim/.vim/.vimPhpPlugin'))
-	source ~/youmjww.vim/.vim/.vimPhpPlugin
+if filereadable(expand('~/youmjww.vim/configAndPlugin/.vimPhpPlugin'))
+	source ~/youmjww.vim/configAndPlugin/.vimPhpPlugin
 endif
 
 " スニペットツール
