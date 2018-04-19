@@ -1,3 +1,5 @@
+" version 1.0
+
 " プラグインの管理のやつ
 if &compatible
 	set nocompatible
