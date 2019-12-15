@@ -99,6 +99,8 @@ set cursorline
 
 " 検索結果をハイライトする
 set hlsearch
+autocmd ColorScheme * hi Search ctermbg=yellow
+
 " F3でハイライトを解除する
 noremap <F3> :noh<CR>
 
