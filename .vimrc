@@ -67,10 +67,6 @@ set expandtab
 set shiftwidth=2
 set smartindent
 
-" tabと空白を表示する
-set list
-set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
-
 "tabを改行しても継続する
 set autoindent
 set smartindent
