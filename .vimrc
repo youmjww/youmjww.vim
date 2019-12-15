@@ -126,8 +126,6 @@ silent! colorscheme codedark
 
 " -------------------------------------------------------------------------------------------------
 " ショートカット系
-" escをjjに
-inoremap <silent> jj <ESC>
 
 " sキー封印
 nnoremap s <Nop>
