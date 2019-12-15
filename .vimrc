@@ -94,9 +94,6 @@ set wildmenu
 " ヤンクしたらクリップボードに貼り付ける
 set clipboard=unnamedplus,autoselect
 
-" マウスを有効化
-set mouse=a
-
 "変換候補で表示される数を増やす
 set pumheight=10
 
