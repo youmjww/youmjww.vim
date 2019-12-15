@@ -1,4 +1,4 @@
-" version 1.0
+" version 1.1
 
 " プラグインの管理のやつ
 if &compatible
@@ -47,10 +47,11 @@ NeoBundleCheck
 "--------------------------------------------------------------------------------------------------
 "基本設定
 
-
-
 " 行番号の表示
 set number
+
+" 行番号の相対表示
+set relativenumber
 
 "シンタックスハイライト
 syntax on
@@ -66,10 +67,6 @@ set tabstop=2
 set expandtab
 set shiftwidth=2
 set smartindent
-
-" tabと空白を表示する
-set list
-set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
 "tabを改行しても継続する
 set autoindent
@@ -94,9 +91,6 @@ set wildmenu
 " ヤンクしたらクリップボードに貼り付ける
 set clipboard=unnamedplus,autoselect
 
-" マウスを有効化
-set mouse=a
-
 "変換候補で表示される数を増やす
 set pumheight=10
 
@@ -105,6 +99,8 @@ set cursorline
 
 " 検索結果をハイライトする
 set hlsearch
+autocmd ColorScheme * hi Search ctermbg=yellow
+
 " F3でハイライトを解除する
 noremap <F3> :noh<CR>
 
@@ -129,8 +125,6 @@ silent! colorscheme codedark
 
 " -------------------------------------------------------------------------------------------------
 " ショートカット系
-" escをjjに
-inoremap <silent> jj <ESC>
 
 " sキー封印
 nnoremap s <Nop>
