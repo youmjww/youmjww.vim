@@ -15,9 +15,9 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'rking/ag.vim'
 
 " react
-if filereadable(expand('~/youmjww.vim/configAndPlugin/.vimReactPlugin'))
-	source ~/youmjww.vim/configAndPlugin/.vimReactPlugin
-endif
+" if filereadable(expand('~/youmjww.vim/configAndPlugin/.vimReactPlugin'))
+" 	source ~/youmjww.vim/configAndPlugin/.vimReactPlugin
+" endif
 
 " php
 if filereadable(expand('~/youmjww.vim/configAndPlugin/.vimPhpPlugin'))
@@ -34,9 +34,11 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle "ctrlpvim/ctrlp.vim"
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
-" カラースキーム
-NeoBundle 'tomasiser/vim-code-dark'
+NeoBundle "mechatroner/rainbow_csv"
 
+" カラースキーム
+" NeoBundle 'tomasiser/vim-code-dark'
+NeoBundle 'tomasr/molokai'
 call neobundle#end()
 
 filetype plugin indent on
@@ -158,4 +160,6 @@ if has("autocmd")
   autocmd FileType json setlocal sw=4 sts=4 ts=4 et
   autocmd FileType css  setlocal sw=2 sts=2 ts=2 et
   autocmd FileType php  setlocal sw=4 sts=4 ts=4 et
+  autocmd FileType go   setlocal sw=4 sts=4 ts=4 noet
 endif
+
