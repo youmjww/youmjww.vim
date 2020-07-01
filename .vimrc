@@ -90,9 +90,6 @@ set backspace=indent,eol,start
 " よくわからんけど、見た目が変わるらしい
 set wildmenu
 
-" ヤンクしたらクリップボードに貼り付ける
-set clipboard=unnamedplus,autoselect
-
 "変換候補で表示される数を増やす
 set pumheight=10
 
