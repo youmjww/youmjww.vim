@@ -128,25 +128,12 @@ silent! colorscheme codedark
 " -------------------------------------------------------------------------------------------------
 " ショートカット系
 
-" sキー封印
-nnoremap s <Nop>
-
 " スペースfでディレクトリツリーを開く
 noremap <Space>f :NERDTree<CR>
 
 " HLで右端左端へ移動
 noremap <S-h>   ^
 noremap <S-l>   $
-
-" window移動
-nnoremap sj <C-w>j
-nnoremap sk <C-w>k
-nnoremap sl <C-w>l
-nnoremap sh <C-w>h
-
-" window分割 shortcut key
-nnoremap ss :<C-u>sp<CR>
-nnoremap sv :<C-u>vs<CR>
 
 " ファイルタイプによってインデントを変える
 if has("autocmd")
