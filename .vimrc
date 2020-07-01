@@ -81,12 +81,6 @@ set history=50
 " 矩形選択時に文字がなくても右にすすめるようにする
 set virtualedit=block
 
-" 左右のカーソル移動において、行を跨いで移動出来る様にする
-set whichwrap=b,s,[,],<,>
-
-" バックスペース有効化
-set backspace=indent,eol,start
-
 " よくわからんけど、見た目が変わるらしい
 set wildmenu
 
@@ -99,9 +93,6 @@ set cursorline
 " 検索結果をハイライトする
 set hlsearch
 autocmd ColorScheme * hi Search ctermbg=yellow
-
-" F3でハイライトを解除する
-noremap <F3> :noh<CR>
 
 " swpファイルを生成しないようにする
 set noswapfile
